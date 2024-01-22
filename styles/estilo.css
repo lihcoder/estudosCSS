@@ -1,0 +1,58 @@
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../imagens/bg-2.jpg);
+    min-height: 100%; /*o minimo de altura que o body deve atingir*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.hero-content{
+    margin: 100px auto 0;
+    width: 80%;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    text-shadow:  2px 2px 2px #282828;
+    font-size: 50px;
+    margin-bottom: 0; /*zera a margem que está abaixo do h1*/
+}
+
+.hero-content p{
+    background-color: #282828;
+    padding: 16px; /*é ele que dá aquela preenchida de borda no conteúdo*/
+    display: inline-block; /*Vão manter posicionados um ao lado do outro, sem quebras de linhas*/
+    font-size: 18px;
+    border-bottom: 2px solid white; /*adicona uma borda abaixo*/
+}
+
+.content-section{
+    display: flex; /*Permite que você arranje os elementos horizontal/vertical, com/sem espaços entre eles, de tamanhos iguais/diferentes*/
+    flex-wrap: wrap;
+    width: 860px;
+    margin: auto;
+    padding: 16px;
+    background-color: white;
+}
+
+.card{
+    flex-basis: 250px;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.card img{
+    width: 100%;
+    display: block;
+}
+
+.card p{
+    background-color: #282828;
+    color: white;
+    padding: 8px;
+    margin: 0;
+}
